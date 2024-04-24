@@ -136,84 +136,92 @@ Para garantizar la seguridad de los datos y la privacidad de los empleados, se i
 
 ## Modelo de la base de datos
 
-- **Administrador**
-  - NombreAdmin: String
-  - CorreoAdmin: String
-  - Contrasena: String
-  - Region: String
-  - Root: String
+db.Empleado.createOne({
+  Nombre: String,
+  AppE: String,
+  ApmE: String,
+  FechaNac: Date,
+  Correo: String,
+  Contrasena: String,
+  Region: String,
+  AreaTrabajo: String,
+  Departamento: String,
+  Contrato: String,
+  TurnoActual: {
+    Inicio: String,
+    Fin: String,
+  },
+  HorarioTraining: {
+    Fecha: Date,
+    HoraInicial: String,
+    HoraFinal: String,
+  },
+  NombreAdmin: String,
+  FechaDeIngreso: Date,
+});
 
-- **Area**
-  - NombreArea: String
-  - Descripcion: String
+db.Administrador.createOne({
+  NombreAdmin: String,
+  CorreoAdmin: String,
+  Contrasena: String,
+  Region: String,
+  Root: String,
+});
 
-- **Contratos**
-  - TipoContrato: String
-  - DiasTrabajados: Number
-  - DiasDescansados: Number
-  - HorasPorDia: Number
-  - TurnosContrato: Array
+db.Area.createOne({ NombreArea: String, Descripcion: String });
 
-- **Departamento**
-  - NombreDepartamento: String
-  - Direccion: 
-    - Numero: String
-    - Calle: String
-    - Colonia: String
-    - Cp: String
+db.Contratos.createOne({
+  TipoContrato: String,
+  DiasTrabajados: Number,
+  DiasDescansados: Number,
+  HorasPorDia: Number,
+  TurnosContrato: Array,
+});
 
-- **Empleado**
-  - Nombre: String
-  - AppE: String
-  - ApmE: String
-  - FechaNac: Date
-  - Correo: String
-  - Contrasena: String
-  - Region: String
-  - AreaTrabajo: String
-  - Departamento: String
-  - Contrato: String
-  - TurnoActual: 
-    - Inicio: String
-    - Fin: String
-  - HorarioTraining: 
-    - Fecha: Date
-    - HoraInicial: String
-    - HoraFinal: String
-  - NombreAdmin: String
-  - FechaDeIngreso: Date
+db.Departamento.createOne({
+  NombreDepartamento: String,
+  Direccion: {
+    Numero: String,
+    Calle: String,
+    Colonia: String,
+    Cp: String,
+  },
+});
 
-- **HistorialHorario**
-  - NombreEmpleado: String
-  - FechaInicio: Date
-  - FechaFin: Date
+db.HistorialHorario.createOne({
+  NombreEmpleado: String,
+  FechaInicio: Date,
+  FechaFin: Date,
+});
 
-- **Sede**
-  - Region: String
-  - Pais: String
+db.Sede.createOne({
+  Region: String,
+  Pais: String,
+});
 
-- **SolicitudHorario**
-  - NombreEmpleado: String
-  - NombreAdmin: String
-  - Contrato: String
-  - TurnoSolicitado: 
-    - Inicio: String
-    - Fin: String
-  - EstadoSolicitud: String
-  - Correo: String
+db.SolicitudHorario.createOne({
+  NombreEmpleado: String,
+  NombreAdmin: String,
+  Contrato: String,
+  TurnoSolicitado: {
+    Inicio: String,
+    Fin: String,
+  },
+  EstadoSolicitud: String,
+  Correo: String,
+});
 
-- **SolicitudVacaciones**
-  - NombreEmpleado: String
-  - FechaSolicitud: 
-    - FechaInicioVacaciones: Date
-    - FechaTerminoVacaciones: Date
-  - EstadoSolicitud: String
-  - Descripcion: String
+db.SolicitudVacaciones.createOne({
+  NombreEmpleado: String,
+  FechaSolicitud: {
+    FechaInicioVacaciones: Date,
+    FechaTerminoVacaciones: Date,
+  },
 
-- **Turno**
-  - NombreTurno: String
-  - HoraFinal: Date
-  - HoraInicio: Date
+  EstadoSolicitud: String,
+  Descripcion: String,
+});
+
  
 ## Diagrama de Componentes
 
