@@ -425,7 +425,8 @@ Basándome en la información proporcionada, propongo un plan de iteraciones par
 - Mejorar la documentación del proyecto, incluyendo el manual de instalación y casos de prueba.
 
 ### Diagrama Entandares de base de datos
-![DBase](https://github.com/ABOK451/proyecto-control-horarios/assets/146273049/9ad246ad-1a6f-4ab0-9668-bedf16e67142)
+![DiClases](https://github.com/ABOK451/proyecto-control-horarios/assets/146273049/8950d8a9-eedb-482f-8625-94334a006690)
+
 
 
 ### Explicación del Modelo
@@ -449,4 +450,4 @@ Basándome en la información proporcionada, propongo un plan de iteraciones par
 ## Manual de Instalación
   - https://drive.google.com/drive/folders/13ea2IMSp6LadQ8AzyaKcv9Fye6yTEtRI?usp=drive_link
 ## Casos de Pruebas
-- https://drive.google.com/drive/folders/1O5lQufb_uz0nobFIUe_qKMd_WQk1UQkI?usp=drive_link
+[- https://drive.google.com/drive/folders/1O5lQufb_uz0nobFIUe_qKMd_WQk1UQkI?usp=drive_link](https://docs.google.com/document/d/1R_7I0qQZ1ZgCtb7MkD25DTOzAGaf0YHmcfvWZ9a3qYs/e)
