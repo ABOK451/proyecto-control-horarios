@@ -389,15 +389,7 @@ El equipo estará compuesto por desarrolladores frontend y backend, un diseñado
  
 ## Diagrama de Componentes
 
-![DC1](https://raw.githubusercontent.com/ABOK451/proyecto-control-horarios/main/documentacion/diagrama%20de%20componente/dc1.jpg)
-
-![DC2](https://raw.githubusercontent.com/ABOK451/proyecto-control-horarios/main/documentacion/diagrama%20de%20componente/dc2.jpg)
-
-![DC3](https://raw.githubusercontent.com/ABOK451/proyecto-control-horarios/main/documentacion/diagrama%20de%20componente/dc3.jpg)
-
-![DC4](https://raw.githubusercontent.com/ABOK451/proyecto-control-horarios/main/documentacion/diagrama%20de%20componente/dc4.jpg)
-
-![DC5](https://raw.githubusercontent.com/ABOK451/proyecto-control-horarios/main/documentacion/diagrama%20de%20componente/dc5.jpg)
+![sdavrg](https://github.com/ABOK451/proyecto-control-horarios/assets/146273049/49a6f2a8-6b85-4cdd-a278-8658c4073935)
 
 Basándome en la información proporcionada, propongo un plan de iteraciones para el desarrollo del sistema de control de horarios:
 
