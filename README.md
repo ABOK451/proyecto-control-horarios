@@ -1,7 +1,16 @@
 # ControlHorarios
 
 ## Descripción
-El objetivo principal del proyecto es desarrollar una aplicación web que simplifique el registro y la asignación de horarios para empleados dentro de una empresa o institución. Esta herramienta se enfocará en proporcionar una interfaz dinámica y fácil de usar, utilizando el framework Angular junto con una librería de Gantt para gestionar eficientemente los horarios laborales.
+La aplicación web que se propone tiene como objetivo principal facilitar el registro y la asignación de horarios para empleados de una empresa o institución. Para ello, se utilizará el framework Angular junto con una librería de Gantt, lo que permitirá una interfaz dinámica e intuitiva para la gestión de los horarios.
+
+El proceso de desarrollo se dividirá en varias etapas. En primer lugar, se diseñará y desarrollará la interfaz de usuario utilizando Angular, aprovechando sus capacidades para crear componentes reutilizables, estructura modular y gestión eficiente del estado de la aplicación. La interfaz estará diseñada de manera que sea fácil de entender y utilizar tanto para los administradores encargados de asignar los horarios como para los empleados que consultan sus propios horarios.
+
+Una vez establecida la interfaz de usuario, se integrará una librería de Gantt que permita visualizar y gestionar los horarios de manera eficiente. Esta librería ofrecerá funcionalidades como la creación, modificación y eliminación de tareas (en este caso, turnos de trabajo), así como la capacidad de arrastrar y soltar para ajustar los horarios de manera intuitiva. Además, se implementarán características como la visualización de la carga de trabajo de cada empleado, la detección de conflictos de horarios y la generación de informes y estadísticas sobre la distribución del tiempo laboral.
+
+Para garantizar la seguridad de los datos y la privacidad de los empleados, se implementarán medidas de autenticación y autorización, de modo que solo los usuarios autorizados puedan acceder y realizar cambios en los horarios. Se podrán establecer diferentes niveles de acceso, como administradores con control total sobre los horarios y empleados con permisos limitados para consultar su propio horario y solicitar cambios. Descripción del proyecto (El mínimo media cuartilla se deberá describir el objetivo del
+proyecto, describir las características o funcionalidades claves del proyecto, el tiempo de
+duración del proyecto, riesgos del proyecto, cronograma, organigrama).
+has que cumpla con cada punto
 
 **Características o Funcionalidades Clave:**
 1. **Interfaz de Usuario Intuitiva:** Diseño y desarrollo de una interfaz de usuario amigable, tanto para administradores como para empleados, con componentes reutilizables y una estructura modular para una fácil comprensión y navegación.
@@ -449,5 +458,7 @@ Basándome en la información proporcionada, propongo un plan de iteraciones par
 
 ## Manual de Instalación
   - https://drive.google.com/drive/folders/13ea2IMSp6LadQ8AzyaKcv9Fye6yTEtRI?usp=drive_link
+## Manual de Usuario
+ https://drive.google.com/drive/folders/1_80U1Eg21o651kR2ur9VZOyY70sKcMmJ?usp=drive_link
 ## Casos de Pruebas
 [- https://drive.google.com/drive/folders/1O5lQufb_uz0nobFIUe_qKMd_WQk1UQkI?usp=drive_link](https://docs.google.com/document/d/1R_7I0qQZ1ZgCtb7MkD25DTOzAGaf0YHmcfvWZ9a3qYs/e)
