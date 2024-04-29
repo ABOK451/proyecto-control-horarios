@@ -123,7 +123,7 @@ El equipo estará compuesto por desarrolladores frontend y backend, un diseñado
   - Los administradores pueden agregar nuevos empleados a la aplicación.
   - Los administradores pueden realizar cambios en los horarios de los empleados existentes según sea necesario.
   - La información del personal se mantiene actualizada y se adapta a las necesidades operativas.
-
+  
 - **HI-USA-011:** Deseo poder cargar información de forma masiva mediante archivos en formatos .xlsx,json y/o .csv, para facilitar la gestión eficiente de grandes cantidades de datos y mantener la consistencia en la base de información.
 
   **Descripción:** Los administradores podrán cargar información masiva mediante archivos en formatos .xlsx, .json y/o .csv para agilizar la gestión de grandes cantidades de datos y asegurar la consistencia en la base de información de la aplicación.
@@ -237,6 +237,17 @@ El equipo estará compuesto por desarrolladores frontend y backend, un diseñado
 ### Diagrama de Clases
 ![DiClases](https://github.com/ABOK451/proyecto-control-horarios/assets/146273049/588de014-9b0b-4606-809b-a6f40cbd8315)
 
+### Estándares de Base de Datos y Programación:
+
+- **Estándares de Base de Datos:**
+  - Se utiliza el modelo relacional para representar la estructura de la base de datos.
+  - Se definen claves primarias y claves foráneas para garantizar la integridad referencial.
+  - Se emplean tipos de datos específicos según el gestor de base de datos utilizado (por ejemplo, VARCHAR, INT, DATE, TIME, BOOLEAN).
+
+- **Estándares de Programación:**
+  - Se sigue la convención de nomenclatura CamelCase para los nombres de las clases y atributos.
+  - Se utilizan comentarios descriptivos para documentar el propósito y el funcionamiento de las clases y métodos.
+  - Se implementan relaciones uno a muchos (1:N) y muchos a uno (N:1) entre las clases según las relaciones establecidas en el dominio del problema.
 ## Vistas
 
 ### Barra de navegación Empleado
