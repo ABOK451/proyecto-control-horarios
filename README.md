@@ -1,44 +1,193 @@
 # ControlHorarios
 
 ## Descripción
+El objetivo principal del proyecto es desarrollar una aplicación web que simplifique el registro y la asignación de horarios para empleados dentro de una empresa o institución. Esta herramienta se enfocará en proporcionar una interfaz dinámica y fácil de usar, utilizando el framework Angular junto con una librería de Gantt para gestionar eficientemente los horarios laborales.
 
+**Características o Funcionalidades Clave:**
+1. **Interfaz de Usuario Intuitiva:** Diseño y desarrollo de una interfaz de usuario amigable, tanto para administradores como para empleados, con componentes reutilizables y una estructura modular para una fácil comprensión y navegación.
 
-La aplicación web que se propone tiene como objetivo principal facilitar el registro y la asignación de horarios para empleados de una empresa o institución. Para ello, se utilizará el framework Angular junto con una librería de Gantt, lo que permitirá una interfaz dinámica e intuitiva para la gestión de los horarios.
+2. **Gestión de Horarios:** Integración de una librería de Gantt para visualizar y gestionar los horarios de manera eficiente, permitiendo la creación, modificación y eliminación de turnos de trabajo, así como la capacidad de arrastrar y soltar para ajustar los horarios de manera intuitiva.
 
-El proceso de desarrollo se dividirá en varias etapas. En primer lugar, se diseñará y desarrollará la interfaz de usuario utilizando Angular, aprovechando sus capacidades para crear componentes reutilizables, estructura modular y gestión eficiente del estado de la aplicación. La interfaz estará diseñada de manera que sea fácil de entender y utilizar tanto para los administradores encargados de asignar los horarios como para los empleados que consultan sus propios horarios.
+3. **Visualización de Carga de Trabajo:** Funcionalidad para visualizar la carga de trabajo de cada empleado, facilitando la distribución equitativa de las responsabilidades laborales.
 
-Una vez establecida la interfaz de usuario, se integrará una librería de Gantt que permita visualizar y gestionar los horarios de manera eficiente. Esta librería ofrecerá funcionalidades como la creación, modificación y eliminación de tareas (en este caso, turnos de trabajo), así como la capacidad de arrastrar y soltar para ajustar los horarios de manera intuitiva. Además, se implementarán características como la visualización de la carga de trabajo de cada empleado, la detección de conflictos de horarios y la generación de informes y estadísticas sobre la distribución del tiempo laboral.
+4. **Detección de Conflictos de Horarios:** Implementación de características que detecten automáticamente conflictos de horarios, evitando superposiciones y asegurando una asignación adecuada de los turnos de trabajo.
 
-Para garantizar la seguridad de los datos y la privacidad de los empleados, se implementarán medidas de autenticación y autorización, de modo que solo los usuarios autorizados puedan acceder y realizar cambios en los horarios. Se podrán establecer diferentes niveles de acceso, como administradores con control total sobre los horarios y empleados con permisos limitados para consultar su propio horario y solicitar cambios.
+5. **Autenticación y Autorización:** Medidas de seguridad para garantizar la autenticación y autorización de los usuarios, con diferentes niveles de acceso para administradores y empleados, asegurando la privacidad de los datos.
+
+6. **Generación de Informes y Estadísticas:** Capacidad para generar informes y estadísticas sobre la distribución del tiempo laboral, facilitando el análisis y la toma de decisiones por parte de los administradores.
+
+**Duración del Proyecto:**
+El proyecto se desarrollará en varias etapas, con una duración estimada de seis meses desde la planificación inicial hasta la implementación y pruebas finales.
+
+**Riesgos del Proyecto:**
+Algunos posibles riesgos incluyen retrasos en el desarrollo debido a problemas técnicos inesperados, dificultades en la integración de la librería de Gantt, y desafíos en la implementación de medidas de seguridad robustas.
+
+**Cronograma:**
+1. Planificación y Diseño de la Interfaz de Usuario - 1 mes
+2. Desarrollo de la Aplicación Angular - 2 meses
+3. Integración de la Librería de Gantt - 1 mes
+4. Implementación de Funcionalidades de Seguridad - 1 mes
+5. Pruebas y Depuración - 1 mes
+
+**Organigrama:**
+El equipo estará compuesto por desarrolladores frontend y backend, un diseñador de interfaz de usuario, un especialista en seguridad de la información, y un coordinador de proyecto para supervisar y gestionar todas las etapas del desarrollo.
 ## Historias de Usuario 
 
 ### Empleado
 
-- **HI-USA-001:** Como empleado, quiero poder solicitar mi horario para el próximo mes, eligiendo el tipo de turno que      prefiero, para tener mayor flexibilidad y comodidad en mi jornada laboral.
+- **HI-USA-001:** Como empleado, quiero poder solicitar mi horario para el próximo mes, eligiendo el tipo de turno que prefiero, para tener mayor flexibilidad y comodidad en mi jornada laboral.
+
+  **Descripción:** Los empleados podrán solicitar su horario para el próximo mes a través de la aplicación, seleccionando el tipo de turno que prefieren.
+
+  **Criterios de Aceptación:**
+  - La aplicación permite a los empleados solicitar su horario para el próximo mes.
+  - Los empleados pueden elegir el tipo de turno que prefieren.
+  - La solicitud se realiza de manera clara y sencilla desde la interfaz de usuario.
+
 - **HI-USA-002:** Como empleado, quiero ver mi horario mensual en un formato de Gantt para tener una visión clara y estructurada de mis turnos de trabajo, facilitando así la planificación de mis actividades fuera del trabajo.
+
+  **Descripción:** Los empleados podrán visualizar su horario mensual en un formato de Gantt desde la aplicación.
+
+  **Criterios de Aceptación:**
+  - Los empleados pueden acceder a su horario mensual desde la aplicación.
+  - El horario se muestra en un formato de Gantt claro y estructurado.
+  - La visualización del horario facilita la planificación de actividades fuera del trabajo.
+
 - **HI-USA-003:** Como empleado, quiero que la aplicación me indique claramente a qué sede pertenezco y a qué área de trabajo, para tener una referencia rápida de mi ubicación laboral.
+
+  **Descripción:** Los empleados podrán ver claramente en la aplicación a qué sede y área de trabajo pertenecen.
+
+  **Criterios de Aceptación:**
+  - La aplicación muestra de forma clara la sede a la que pertenece el empleado.
+  - La aplicación muestra de forma clara el área de trabajo del empleado.
+
 - **HI-USA-004:** Como empleado, deseo tener la capacidad de solicitar vacaciones a través de la aplicación, indicando las fechas deseadas y asegurándome de que no haya conflictos con mi horario laboral, permitiéndome disfrutar de períodos de descanso sin afectar la operatividad del equipo.
-- **HI-USA-005:** El empleado quiere solicitar vacaciones visualizando los días disponibles, facilitando la elección de fechas que se ajusten tanto a sus necesidades como a la disponibilidad de la empresa.
+
+  **Descripción:** Los empleados podrán solicitar vacaciones a través de la aplicación, indicando las fechas deseadas y evitando conflictos con su horario laboral.
+
+  **Criterios de Aceptación:**
+  - Los empleados pueden solicitar vacaciones desde la aplicación.
+  - Los empleados pueden seleccionar las fechas deseadas para sus vacaciones.
+  - La aplicación verifica que no haya conflictos con el horario laboral del empleado antes de aprobar la solicitud de vacaciones.
+
+- **HI-USA-005:** Como empleado, quiero solicitar vacaciones visualizando los días disponibles, facilitando la elección de fechas que se ajusten tanto a mis necesidades como a la disponibilidad de la empresa.
+
+  **Descripción:** Los empleados podrán solicitar vacaciones viendo los días disponibles en el calendario de la aplicación.
+
+  **Criterios de Aceptación:**
+  - La aplicación muestra de forma clara los días disponibles para solicitar vacaciones.
+  - Los empleados pueden seleccionar las fechas de vacaciones basándose en los días disponibles en el calendario.
+
 - **HI-USA-006:** Después de elegir mi turno deseado, la función de confirmación es rápida y eficiente, asegurando una respuesta inmediata para que pueda organizarme con anticipación.
+
+  **Descripción:** Después de que los empleados elijan su turno deseado, la confirmación se realiza de manera rápida y eficiente.
+
+  **Criterios de Aceptación:**
+  - La aplicación proporciona una confirmación inmediata después de que el empleado elige su turno deseado.
+  - La confirmación se realiza de manera eficiente, sin retrasos innecesarios.
+
 - **HI-USA-007:** La aplicación me notifica vía correo electrónico sobre el veredicto de mi solicitud, que puede ser rechazado o aceptado, proporcionando una comunicación clara y oportuna sobre el estado de mi solicitud.
 
+  **Descripción:** La aplicación envía notificaciones por correo electrónico a los empleados sobre el resultado de su solicitud de turno o vacaciones.
+
+  **Criterios de Aceptación:**
+  - La aplicación envía notificaciones por correo electrónico a los empleados sobre el resultado de su solicitud.
+  - La notificación incluye si la solicitud fue aceptada o rechazada.
+  - La comunicación es clara y oportuna, brindando al empleado información sobre el estado de su solicitud.
 
 ### Administrador
 
-- **HI-USA-008:** Quiero gestionar y ajustar el número de empleados permitidos en cada tipo de turno, para garantizar una distribución equitativa de recursos y optimizar la asignación de tareas. 
-- **HI-USA-009:** Deseo asignar periodos de training dentro del calendario de los empleados, para mejorar las habilidades y conocimientos del personal, contribuyendo al desarrollo profesional de manera planificada. 
-- **HI-USA-010:** Deseo registrar a nuevos empleados en la aplicación y realizar cambios en sus horarios cuando sea necesario, para mantener actualizada la información del personal y adaptarla a las necesidades operativas.
-- **HI-USA-011:** Deseo poder cargar información de forma masiva mediante archivos en formatos .xlsx, .json y/o .csv, para facilitar la gestión eficiente de grandes cantidades de datos y mantener la consistencia en la base de información.
+- **HI-USA-008:** Quiero gestionar y ajustar el número de empleados permitidos en cada tipo de turno, para garantizar una distribución equitativa de recursos y optimizar la asignación de tareas.
 
+  **Descripción:** Los administradores podrán gestionar y ajustar el número de empleados permitidos en cada tipo de turno desde la aplicación.
+
+  **Criterios de Aceptación:**
+  - Los administradores pueden acceder a la configuración de cada tipo de turno desde la aplicación.
+  - Los administradores pueden ajustar el número de empleados permitidos para cada tipo de turno.
+  - Los cambios realizados se reflejan correctamente en la asignación de turnos.
+
+- **HI-USA-009:** Deseo asignar periodos de training dentro del calendario de los empleados, para mejorar las habilidades y conocimientos del personal, contribuyendo al desarrollo profesional de manera planificada.
+
+  **Descripción:** Los administradores podrán asignar periodos de training dentro del calendario de los empleados desde la aplicación.
+
+  **Criterios de Aceptación:**
+  - Los administradores pueden seleccionar los empleados a los que desean asignar periodos de training.
+  - Los periodos de training se reflejan correctamente en el calendario de los empleados.
+  - Los empleados reciben notificaciones sobre los periodos de training asignados.
+
+- **HI-USA-010:** Deseo registrar a nuevos empleados en la aplicación y realizar cambios en sus horarios cuando sea necesario, para mantener actualizada la información del personal y adaptarla a las necesidades operativas.
+
+  **Descripción:** Los administradores podrán registrar a nuevos empleados en la aplicación y realizar cambios en sus horarios cuando sea necesario.
+
+  **Criterios de Aceptación:**
+  - Los administradores pueden agregar nuevos empleados a la aplicación.
+  - Los administradores pueden realizar cambios en los horarios de los empleados existentes según sea necesario.
+  - La información del personal se mantiene actualizada y se adapta a las necesidades operativas.
+
+- **HI-USA-011:** Deseo poder cargar información de forma masiva mediante archivos en formatos .xlsx,json y/o .csv, para facilitar la gestión eficiente de grandes cantidades de datos y mantener la consistencia en la base de información.
+
+  **Descripción:** Los administradores podrán cargar información masiva mediante archivos en formatos .xlsx, .json y/o .csv para agilizar la gestión de grandes cantidades de datos y asegurar la consistencia en la base de información de la aplicación.
+
+  **Criterios de Aceptación:**
+  - La aplicación permite a los administradores cargar archivos en formatos .xlsx, .json y/o .csv desde la interfaz de usuario.
+  - Los datos cargados se procesan correctamente y se reflejan en la base de información de la aplicación.
+  - Se proporciona retroalimentación clara en caso de errores durante la carga de datos.
 
 ### Super Administrador
-- **HI-USS-012:** El super administrador se loguea, visualiza y selecciona la lista de todos los administradores y la región que administran, para llevar un control centralizado de las funciones administrativas.
-- **HI-USS-013:** Si selecciona a un administrador, visualiza todos los empleados que este administra, permitiendo un seguimiento detallado de la gestión de personal por parte de cada administrador.
-- **HI-USS-014:**  Quiero visualizar las jornadas de trabajo de cada empleado para determinar el mejor momento para sus vacaciones, facilitando la planificación y asegurando la continuidad operativa.
-- **HI-USS-015:**  Quiero dar de alta nuevos usuarios administradores y otros tipos de usuarios para tener más apoyo en la administración de las distintas regiones, garantizando una gestión eficiente y escalable.
-- **HI-USS-016:**  Quiero recibir alertas sobre posibles problemas de rendimiento o seguridad en la aplicación, para tomar medidas proactivas y mantener la estabilidad del sistema.
-- **HI-USS-017:**  Necesito tener la capacidad de realizar copias de seguridad y restaurar datos en caso de pérdida o errores críticos, para asegurar la disponibilidad y la integridad de la información del sistema y garantizar la continuidad del servicio.
 
+- **HI-USS-012:** El super administrador se loguea, visualiza y selecciona la lista de todos los administradores y la región que administran, para llevar un control centralizado de las funciones administrativas.
+
+  **Descripción:** El super administrador podrá visualizar y seleccionar la lista de todos los administradores y las regiones que administran desde la aplicación para llevar un control centralizado de las funciones administrativas.
+
+  **Criterios de Aceptación:**
+  - El super administrador puede iniciar sesión en la aplicación con privilegios de super administrador.
+  - La aplicación muestra una lista de todos los administradores registrados y las regiones que administran.
+  - El super administrador puede seleccionar y acceder a la información detallada de cada administrador y región.
+
+- **HI-USS-013:** Si selecciona a un administrador, visualiza todos los empleados que este administra, permitiendo un seguimiento detallado de la gestión de personal por parte de cada administrador.
+
+  **Descripción:** Si el super administrador selecciona a un administrador específico, podrá visualizar todos los empleados que este administra desde la aplicación, permitiendo un seguimiento detallado de la gestión de personal por parte de cada administrador.
+
+  **Criterios de Aceptación:**
+  - El super administrador puede seleccionar a un administrador específico desde la interfaz de usuario.
+  - La aplicación muestra una lista de todos los empleados que el administrador seleccionado administra.
+  - El super administrador puede acceder a información detallada sobre la gestión de cada empleado por parte del administrador seleccionado.
+
+- **HI-USS-014:** Quiero visualizar las jornadas de trabajo de cada empleado para determinar el mejor momento para sus vacaciones, facilitando la planificación y asegurando la continuidad operativa.
+
+  **Descripción:** El super administrador podrá visualizar las jornadas de trabajo de cada empleado desde la aplicación para determinar el mejor momento para sus vacaciones y facilitar la planificación, asegurando la continuidad operativa.
+
+  **Criterios de Aceptación:**
+  - El super administrador puede acceder a la información de las jornadas de trabajo de cada empleado desde la interfaz de usuario.
+  - La aplicación muestra de manera clara las jornadas de trabajo de cada empleado.
+  - El super administrador puede utilizar esta información para planificar las vacaciones de los empleados y garantizar la continuidad operativa.
+
+- **HI-USS-015:** Quiero dar de alta nuevos usuarios administradores y otros tipos de usuarios para tener más apoyo en la administración de las distintas regiones, garantizando una gestión eficiente y escalable.
+
+  **Descripción:** El super administrador podrá dar de alta nuevos usuarios administradores y otros tipos de usuarios desde la aplicación para garantizar una gestión eficiente y escalable de las distintas regiones.
+
+  **Criterios de Aceptación:**
+  - El super administrador puede agregar nuevos usuarios administradores y otros tipos de usuarios desde la interfaz de usuario.
+  - La aplicación verifica y valida los datos ingresados para el registro de nuevos usuarios.
+  - Los nuevos usuarios registrados pueden acceder a la aplicación con los roles y permisos correspondientes.
+
+- **HI-USS-016:** Quiero recibir alertas sobre posibles problemas de rendimiento o seguridad en la aplicación, para tomar medidas proactivas y mantener la estabilidad del sistema.
+
+  **Descripción:** El super administrador recibirá alertas sobre posibles problemas de rendimiento o seguridad en la aplicación para tomar medidas proactivas y mantener la estabilidad del sistema.
+
+  **Criterios de Aceptación:**
+  - La aplicación monitorea de forma continua el rendimiento y la seguridad del sistema.
+  - En caso de detectar problemas de rendimiento o seguridad, se envían alertas al super administrador.
+  - Las alertas proporcionan información detallada sobre el problema detectado y posibles acciones a tomar.
+
+- **HI-USS-017:** Necesito tener la capacidad de realizar copias de seguridad y restaurar datos en caso de pérdida o errores críticos, para asegurar la disponibilidad y la integridad de la información del sistema y garantizar la continuidad del servicio.
+
+  **Descripción:** El super administrador tendrá la capacidad de realizar copias de seguridad y restaurar datos en caso de pérdida o errores críticos para garantizar la disponibilidad y la integridad de la información del sistema y garantizar la continuidad del servicio.
+
+  **Criterios de Aceptación:**
+  - La aplicación proporciona funciones para realizar copias de seguridad de la información del sistema.
+  - La aplicación permite al super administrador restaurar datos a partir de las copias de seguridad en caso de pérdida o errores críticos.
+  - Las operaciones de copia de seguridad y restauración de datos son rápidas, eficientes y seguras.
 - 
 ## Análisis de la Solución
 ### Requerimientos Funcionales - Integradora 2024
