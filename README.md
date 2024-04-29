@@ -232,7 +232,7 @@ El equipo estará compuesto por desarrolladores frontend y backend, un diseñado
 ![DCU3](https://github.com/ABOK451/proyecto-control-horarios/blob/main/documentacion/diagrama%20casos%20de%20uso/imagen_2024-04-09_000204959.png)
 
 ### Diagrama de Actividades
-<img width="280" alt="image" src="https://github.com/ABOK451/proyecto-control-horarios/assets/146273049/377d7866-197e-40ad-a52f-66a11bba2dea">
+![Actividades](https://github.com/ABOK451/proyecto-control-horarios/assets/146273049/07bc4e74-6ca6-4a67-881b-63d758849dd9)
 
 ### Diagrama de Clases
 ![DClases](https://github.com/ABOK451/proyecto-control-horarios/assets/146273049/2e3c5974-5847-4914-a71e-a00603d8c7ea)
