@@ -299,3 +299,5 @@ Basándome en la información proporcionada, propongo un plan de iteraciones par
   - https://drive.google.com/drive/folders/13ea2IMSp6LadQ8AzyaKcv9Fye6yTEtRI?usp=drive_link
 ## Casos de Pruebas
 - https://drive.google.com/drive/folders/1O5lQufb_uz0nobFIUe_qKMd_WQk1UQkI?usp=drive_link
+## Testeo
+- https://docs.google.com/document/d/1R_7I0qQZ1ZgCtb7MkD25DTOzAGaf0YHmcfvWZ9a3qYs/edit?usp=sharing
