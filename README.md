@@ -257,16 +257,6 @@ El equipo estará compuesto por desarrolladores frontend y backend, un diseñado
   - Se sigue la convención de nomenclatura CamelCase para los nombres de las clases y atributos.
   - Se utilizan comentarios descriptivos para documentar el propósito y el funcionamiento de las clases y métodos.
   - Se implementan relaciones uno a muchos (1:N) y muchos a uno (N:1) entre las clases según las relaciones establecidas en el dominio del problema.
-## Vistas
-
-### Barra de navegación Empleado
-- Botones: Inicio, Solicitudes, Gantt.
-  <img width="302" alt="image" src="https://github.com/ABOK451/proyecto-control-horarios/assets/146273049/3d86b9c7-57b1-42ff-b3db-0825721fb391">
-
-### Barra de navegación Administrador
-- Botones: Inicio, Gestión empleados, Solicitudes, Gantt.
-  ![image](https://github.com/ABOK451/proyecto-control-horarios/assets/146273049/a7e2bdf3-8aa7-433c-96e3-d931c02ea813)
-
 
 ### INICIO
 - Logotipo y lema de la aplicación.
