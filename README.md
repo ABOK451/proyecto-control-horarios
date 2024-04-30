@@ -390,38 +390,17 @@ El equipo estará compuesto por desarrolladores frontend y backend, un diseñado
 
 ![sdavrg](https://github.com/ABOK451/proyecto-control-horarios/assets/146273049/49a6f2a8-6b85-4cdd-a278-8658c4073935)
 
-Basándome en la información proporcionada, propongo un plan de iteraciones para el desarrollo del sistema de control de horarios:
+## Plan de iteraciones
+Basándome en la información proporcionada, se propuso un plan de iteraciones para el desarrollo del sistema de control de horarios con la herramienta de trello:
 
-### Iteración 1: Configuración del Entorno y Diseño de la Interfaz de Usuario
-- Configurar el entorno de desarrollo con Angular.
-- Diseñar la estructura de componentes y módulos de la interfaz de usuario.
-- Implementar la autenticación básica para empleados, administradores y super administradores.
-- Crear las páginas de inicio de sesión y página de bienvenida para cada tipo de usuario.
 
-### Iteración 2: Implementación de Funcionalidades Básicas del Módulo de Empleado
-- Desarrollar la funcionalidad para que los empleados puedan solicitar su horario para el próximo mes.
-- Permitir a los empleados ver su horario mensual en formato de Gantt.
-- Implementar la capacidad para que los empleados soliciten vacaciones a través de la aplicación.
-- Añadir la funcionalidad para que los empleados puedan ver información sobre su sede y área de trabajo.
+- **https://trello.com/b/AyAIlxyB/daily-scrum**
+- **https://trello.com/b/tsWFOpaA/control-de-horarios**
 
-### Iteración 3: Implementación de Funcionalidades Básicas del Módulo de Administrador
-- Desarrollar la funcionalidad para que los administradores gestionen y ajusten el número de empleados por turno.
-- Permitir a los administradores asignar periodos de training dentro del calendario de los empleados.
-- Implementar el registro de nuevos empleados y la capacidad de realizar cambios en sus horarios.
+En Notion es donde se llevo acabo toda la documentacion 
+- **https://www.notion.so/Documentacion-9d313066edde4e71b08c94c888c4c924?pm=c**
 
-### Iteración 4: Integración de la Librería de Gantt y Mejoras en la Interfaz de Usuario
-- Integrar la librería de Gantt para visualizar y gestionar los horarios de manera eficiente.
-- Mejorar la interfaz de usuario para que sea más intuitiva y fácil de usar.
-- Añadir características como la visualización de la carga de trabajo de cada empleado y la detección de conflictos de horarios.
 
-### Iteración 5: Implementación de Funcionalidades del Módulo de Super Administrador
-- Desarrollar la funcionalidad para que el super administrador pueda visualizar y seleccionar la lista de todos los administradores y las regiones que administran.
-- Permitir al super administrador gestionar los usuarios y sus permisos, incluyendo la creación de nuevos usuarios administradores.
-
-### Iteración 6: Refinamiento y Pruebas
-- Realizar pruebas exhaustivas del sistema para detectar y corregir errores.
-- Optimizar el rendimiento y la seguridad del sistema.
-- Mejorar la documentación del proyecto, incluyendo el manual de instalación y casos de prueba.
 
 ### Diagrama Entandares de base de datos
 ![DiClases](https://github.com/ABOK451/proyecto-control-horarios/assets/146273049/8950d8a9-eedb-482f-8625-94334a006690)
